@@ -76,13 +76,15 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 文章默认的作者信息，(可在md文件中单独配置此信息) string | {name: string, link?: string}
     author: {
-      name: 'xugaoyi', // 必需
-      link: 'https://github.com/xugaoyi', // 可选的
+      // name: 'xugaoyi', // 必需
+      // link: 'https://github.com/xugaoyi', // 可选的
+      name: 'Xuan', // 必需
+      link: 'https://github.com/Sidney-Su', // 可选的
     },
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: 'https://fastly.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
+      avatar: 'https://avatars.githubusercontent.com/u/34014026?v=4',
       name: 'Xuan',
       slogan: '努力学习的菜鸟',
     },
@@ -100,7 +102,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           iconClass: 'icon-github',
           title: 'GitHub',
           //link: 'https://github.com/xugaoyi',
-          link: 'https://github.com/xugaoyi',
+          link: 'https://github.com/Sidney-Su',
         },
         {
           iconClass: 'icon-erji',
@@ -121,7 +123,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     extendFrontmatter: {
       author: {
         name: 'Xuan',
-        link: 'https://github.com/Sidney-Su'
+        link: 'https://github.com/Sidney-Su',
+        // name: 'Xu',
+        // link: 'https://github.com/xustudyxu'
       }
     },
 

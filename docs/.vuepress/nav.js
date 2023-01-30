@@ -81,9 +81,8 @@ module.exports = [
         text: 'Java',
         items: [
           // 注意 这里面的link是md文档中的permalink
-          { text: 'Java基础', link: '/pages/java/' },
-          { text: 'JavaWeb', link: '/pages/JavaWeb/' },
-          { text: 'Spring', link: '/pages/spring/' },
+          { text: 'Java基础', link: '/catalogs/Java/' },
+          { text: 'Spring', link: '/catalogs/Spring/' },
         ],
       },
     ],
