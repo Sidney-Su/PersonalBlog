@@ -53,10 +53,10 @@ module.exports = [
             text: '《TypeScript 从零实现 axios》',
             link: '/note/typescript-axios/',
           },
-          {
-            text: '《Git》',
-            link: '/note/git/',
-          },
+          // {
+          //   text: '《Git》',
+          //   link: '/note/git/',
+          // },
           {
             text: 'TypeScript',
             link: '/pages/51afd6/',
@@ -113,7 +113,7 @@ module.exports = [
         text: '服务框架',
         items: [
           //{ text: 'Dubbo', link: '/pages/48771f/' },
-          { text: 'SpringCloudAlibaba', link: '/pages/fb21fa/' },
+          { text: 'SpringCloudAlibaba', link: '/catalogs/Alibaba/' },
         ]
       },
     ]
@@ -150,21 +150,22 @@ module.exports = [
   },
 
   // 工具
+  // 理一下：先通过导航栏 工具(这里的配置)->部署->Linux(定位到/catalogs/Linux/文件)目录->具体文件
   { text: '工具', 
-  link: '/tools/',
+  link: '/tools/', // 定位到 00.目录页/06.工具
   items: [
     {
       text: '部署',
       items: [
-        { text: 'Linux', link: '/pages/99e9dc/' },
-        { text: 'Docker', link: '/pages/90cc29/' },
+        { text: 'Linux', link: '/catalogs/Linux/' }, // 定位到Liunx目录
+        { text: 'Docker', link: '/catalogs/Docker/' }, // 定位到Docker目录
       ]
     }
     , {
       text: '管理',
       items: [
-        { text: 'Maven', link: '/pages/45eca1/' },
-        { text: 'Git', link: '/pages/34892c/' },
+        { text: 'Maven', link: '/catalogs/Maven/' }, // 定位到Maven目录
+        { text: 'Git', link: '/catalogs/Git/' }, // 定位到Git目录
       ]
     },
   ]
@@ -175,10 +176,10 @@ module.exports = [
     text: '面试',
     link: '/interview/',
     items: [
-      { text: '十大排序算法', link: '/pages/eab19d/' },
-      { text: '力扣算法题', link: '/pages/40ee62/' },
-      { text: '初级开发篇', link: '/pages/39558d/' },
-      { text: '中高进阶篇', link: '/pages/47c622/' },
+      // { text: '十大排序算法', link: '/pages/eab19d/' },
+      // { text: '力扣算法题', link: '/pages/40ee62/' },
+      // { text: '初级开发篇', link: '/pages/39558d/' },
+      // { text: '中高进阶篇', link: '/pages/47c622/' },
       { text: 'MySQL', link: '/pages/329723/' },
     ]
     // items: [

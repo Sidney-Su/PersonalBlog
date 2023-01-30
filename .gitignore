@@ -20,3 +20,7 @@ urls.txt
 
 # mac
 .DS_Store
+
+# 编译后的文件
+dist
+dist.zip
